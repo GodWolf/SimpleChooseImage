@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3D6E9D81F131BE70086AB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6E9D71F131BE70086AB7B /* main.m */; };
+		B3D6E9DB1F131BE70086AB7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6E9DA1F131BE70086AB7B /* AppDelegate.m */; };
+		B3D6E9DE1F131BE70086AB7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6E9DD1F131BE70086AB7B /* ViewController.m */; };
+		B3D6E9E11F131BE70086AB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D6E9DF1F131BE70086AB7B /* Main.storyboard */; };
+		B3D6E9E31F131BE70086AB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D6E9E21F131BE70086AB7B /* Assets.xcassets */; };
+		B3D6E9E61F131BE70086AB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D6E9E41F131BE70086AB7B /* LaunchScreen.storyboard */; };
+		B3D6E9F01F131C100086AB7B /* SunPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6E9EF1F131C100086AB7B /* SunPhotoTool.m */; };
+		B3D6E9F61F1350AA0086AB7B /* SunAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6E9F51F1350AA0086AB7B /* SunAlbumsViewController.m */; };
+		B3D6E9F91F1350BB0086AB7B /* SunPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6E9F81F1350BB0086AB7B /* SunPhotoViewController.m */; };
+		B3D6E9FC1F1351800086AB7B /* SunPhotoNavgController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6E9FB1F1351800086AB7B /* SunPhotoNavgController.m */; };
+		B3D6E9FF1F1358470086AB7B /* SunPhotoCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6E9FE1F1358470086AB7B /* SunPhotoCollectionView.m */; };
+		B3D6EA021F13794B0086AB7B /* SunPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6EA011F13794B0086AB7B /* SunPhotoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3D6E9D31F131BE70086AB7B /* PhotoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D6E9D71F131BE70086AB7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3D6E9D91F131BE70086AB7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3D6E9DA1F131BE70086AB7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3D6E9DC1F131BE70086AB7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3D6E9DD1F131BE70086AB7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3D6E9E01F131BE70086AB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3D6E9E21F131BE70086AB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3D6E9E51F131BE70086AB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3D6E9E71F131BE70086AB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D6E9EE1F131C100086AB7B /* SunPhotoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunPhotoTool.h; sourceTree = "<group>"; };
+		B3D6E9EF1F131C100086AB7B /* SunPhotoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunPhotoTool.m; sourceTree = "<group>"; };
+		B3D6E9F41F1350AA0086AB7B /* SunAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunAlbumsViewController.h; sourceTree = "<group>"; };
+		B3D6E9F51F1350AA0086AB7B /* SunAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunAlbumsViewController.m; sourceTree = "<group>"; };
+		B3D6E9F71F1350BB0086AB7B /* SunPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunPhotoViewController.h; sourceTree = "<group>"; };
+		B3D6E9F81F1350BB0086AB7B /* SunPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunPhotoViewController.m; sourceTree = "<group>"; };
+		B3D6E9FA1F1351800086AB7B /* SunPhotoNavgController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunPhotoNavgController.h; sourceTree = "<group>"; };
+		B3D6E9FB1F1351800086AB7B /* SunPhotoNavgController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunPhotoNavgController.m; sourceTree = "<group>"; };
+		B3D6E9FD1F1358470086AB7B /* SunPhotoCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunPhotoCollectionView.h; sourceTree = "<group>"; };
+		B3D6E9FE1F1358470086AB7B /* SunPhotoCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunPhotoCollectionView.m; sourceTree = "<group>"; };
+		B3D6EA001F13794B0086AB7B /* SunPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunPhotoModel.h; sourceTree = "<group>"; };
+		B3D6EA011F13794B0086AB7B /* SunPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunPhotoModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D6E9D01F131BE70086AB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3D6E9CA1F131BE70086AB7B = {
+			isa = PBXGroup;
+			children = (
+				B3D6E9D51F131BE70086AB7B /* PhotoTest */,
+				B3D6E9D41F131BE70086AB7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D6E9D41F131BE70086AB7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D6E9D31F131BE70086AB7B /* PhotoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D6E9D51F131BE70086AB7B /* PhotoTest */ = {
+			isa = PBXGroup;
+			children = (
+				B3D6E9D91F131BE70086AB7B /* AppDelegate.h */,
+				B3D6E9DA1F131BE70086AB7B /* AppDelegate.m */,
+				B3D6E9DC1F131BE70086AB7B /* ViewController.h */,
+				B3D6E9DD1F131BE70086AB7B /* ViewController.m */,
+				B3D6E9ED1F131BFE0086AB7B /* SunPhoto */,
+				B3D6E9DF1F131BE70086AB7B /* Main.storyboard */,
+				B3D6E9E21F131BE70086AB7B /* Assets.xcassets */,
+				B3D6E9E41F131BE70086AB7B /* LaunchScreen.storyboard */,
+				B3D6E9E71F131BE70086AB7B /* Info.plist */,
+				B3D6E9D61F131BE70086AB7B /* Supporting Files */,
+			);
+			path = PhotoTest;
+			sourceTree = "<group>";
+		};
+		B3D6E9D61F131BE70086AB7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D6E9D71F131BE70086AB7B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3D6E9ED1F131BFE0086AB7B /* SunPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				B3D6E9EE1F131C100086AB7B /* SunPhotoTool.h */,
+				B3D6E9EF1F131C100086AB7B /* SunPhotoTool.m */,
+				B3D6E9F41F1350AA0086AB7B /* SunAlbumsViewController.h */,
+				B3D6E9F51F1350AA0086AB7B /* SunAlbumsViewController.m */,
+				B3D6E9F71F1350BB0086AB7B /* SunPhotoViewController.h */,
+				B3D6E9F81F1350BB0086AB7B /* SunPhotoViewController.m */,
+				B3D6E9FA1F1351800086AB7B /* SunPhotoNavgController.h */,
+				B3D6E9FB1F1351800086AB7B /* SunPhotoNavgController.m */,
+				B3D6E9FD1F1358470086AB7B /* SunPhotoCollectionView.h */,
+				B3D6E9FE1F1358470086AB7B /* SunPhotoCollectionView.m */,
+				B3D6EA001F13794B0086AB7B /* SunPhotoModel.h */,
+				B3D6EA011F13794B0086AB7B /* SunPhotoModel.m */,
+			);
+			path = SunPhoto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D6E9D21F131BE70086AB7B /* PhotoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D6E9EA1F131BE70086AB7B /* Build configuration list for PBXNativeTarget "PhotoTest" */;
+			buildPhases = (
+				B3D6E9CF1F131BE70086AB7B /* Sources */,
+				B3D6E9D01F131BE70086AB7B /* Frameworks */,
+				B3D6E9D11F131BE70086AB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTest;
+			productName = PhotoTest;
+			productReference = B3D6E9D31F131BE70086AB7B /* PhotoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D6E9CB1F131BE70086AB7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sunxiangxiang;
+				TargetAttributes = {
+					B3D6E9D21F131BE70086AB7B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9PD774NBY8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B3D6E9CE1F131BE70086AB7B /* Build configuration list for PBXProject "PhotoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3D6E9CA1F131BE70086AB7B;
+			productRefGroup = B3D6E9D41F131BE70086AB7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D6E9D21F131BE70086AB7B /* PhotoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D6E9D11F131BE70086AB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D6E9E61F131BE70086AB7B /* LaunchScreen.storyboard in Resources */,
+				B3D6E9E31F131BE70086AB7B /* Assets.xcassets in Resources */,
+				B3D6E9E11F131BE70086AB7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D6E9CF1F131BE70086AB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D6E9DE1F131BE70086AB7B /* ViewController.m in Sources */,
+				B3D6E9DB1F131BE70086AB7B /* AppDelegate.m in Sources */,
+				B3D6E9FF1F1358470086AB7B /* SunPhotoCollectionView.m in Sources */,
+				B3D6E9D81F131BE70086AB7B /* main.m in Sources */,
+				B3D6E9F91F1350BB0086AB7B /* SunPhotoViewController.m in Sources */,
+				B3D6E9F01F131C100086AB7B /* SunPhotoTool.m in Sources */,
+				B3D6EA021F13794B0086AB7B /* SunPhotoModel.m in Sources */,
+				B3D6E9FC1F1351800086AB7B /* SunPhotoNavgController.m in Sources */,
+				B3D6E9F61F1350AA0086AB7B /* SunAlbumsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3D6E9DF1F131BE70086AB7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D6E9E01F131BE70086AB7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3D6E9E41F131BE70086AB7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D6E9E51F131BE70086AB7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3D6E9E81F131BE70086AB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3D6E9E91F131BE70086AB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D6E9EB1F131BE70086AB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9PD774NBY8;
+				INFOPLIST_FILE = PhotoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.PhotoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3D6E9EC1F131BE70086AB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9PD774NBY8;
+				INFOPLIST_FILE = PhotoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.PhotoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D6E9CE1F131BE70086AB7B /* Build configuration list for PBXProject "PhotoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D6E9E81F131BE70086AB7B /* Debug */,
+				B3D6E9E91F131BE70086AB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D6E9EA1F131BE70086AB7B /* Build configuration list for PBXNativeTarget "PhotoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D6E9EB1F131BE70086AB7B /* Debug */,
+				B3D6E9EC1F131BE70086AB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D6E9CB1F131BE70086AB7B /* Project object */;
+}
